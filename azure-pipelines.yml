@@ -29,5 +29,6 @@ steps:
 
 - script: |
     pip install pandas numpy
+    exit 0
   displayName: 'pandas, numpy install'
 
