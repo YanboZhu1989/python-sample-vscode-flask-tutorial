@@ -16,9 +16,11 @@ strategy:
     Python38:
       python.version: '3.8'
     Python39:
-      python.version: '3.9.12'
+      python.version: '3.9'
+      architecture: 'x64'
     Python310:
       python.version: '3.10'
+      architecture: 'x64'
 
 steps:
 - task: UsePythonVersion@0
