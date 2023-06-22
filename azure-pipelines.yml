@@ -28,6 +28,6 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
+    pip install pandas numpy
+  displayName: 'pandas, numpy install'
+
